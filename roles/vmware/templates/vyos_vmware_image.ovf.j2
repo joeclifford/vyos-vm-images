@@ -19,7 +19,7 @@
       <Label ovf:msgid="ExtraSmall.label">Extra Small</Label>
       <Description ovf:msgid="ExtraSmall.description">Minimal hardware profile - 1 vCPU, 512 MB RAM</Description>
     </Configuration>
-    <Configuration ovf:id="1CPU-512MB - No Reservation">
+    <Configuration ovf:id="1CPU-512MB-No-Reservation">
       <Label ovf:msgid="ExtraSmall.label">Extra Small - No Reservation</Label>
       <Description ovf:msgid="ExtraSmall.description">Minimal hardware profile - 1 vCPU, 512 MB RAM</Description>
     </Configuration>
@@ -27,7 +27,7 @@
       <Label ovf:msgid="Small.label">Small</Label>
       <Description ovf:msgid="Small.description">Small hardware profile - 1 vCPU, 1 GB RAM</Description>
     </Configuration>
-    <Configuration ovf:default="true" ovf:id="1CPU-1GB - No Reservation">
+    <Configuration ovf:default="true" ovf:id="1CPU-1GB-No-Reservation">
       <Label ovf:msgid="Small.label">Small - No Reservation</Label>
       <Description ovf:msgid="Small.description">Small hardware profile - 1 vCPU, 1 GB RAM</Description>
     </Configuration>
@@ -35,7 +35,7 @@
       <Label ovf:msgid="Medium.label">Medium</Label>
       <Description ovf:msgid="Medium.description">Medium hardware profile - 4 vCPUs, 16 GB RAM</Description>
     </Configuration>
-    <Configuration ovf:id="4CPU-16GB - No Reservation">
+    <Configuration ovf:id="4CPU-16GB-No-Reservation">
       <Label ovf:msgid="Medium.label">Medium - No Reservation</Label>
       <Description ovf:msgid="Medium.description">Medium hardware profile - 4 vCPUs, 16 GB RAM</Description>
     </Configuration>
@@ -43,7 +43,7 @@
       <Label ovf:msgid="Large.label">Large</Label>
       <Description ovf:msgid="Large.description">Large hardware profile - 8 vCPUs, 32 GB RAM</Description>
     </Configuration>
-    <Configuration ovf:id="8CPU-32GB - No Reservation">
+    <Configuration ovf:id="8CPU-32GB-No-Reservation">
       <Label ovf:msgid="Large.label">Large - No Reservation</Label>
       <Description ovf:msgid="Large.description">Large hardware profile - 8 vCPUs, 32 GB RAM</Description>
     </Configuration>
@@ -148,7 +148,7 @@
         <rasd:ResourceType>3</rasd:ResourceType>
         <rasd:VirtualQuantity>1</rasd:VirtualQuantity>
       </Item>
-      <Item configuration="1CPU-512MB - No Reservation">
+      <Item configuration="1CPU-512MB-No-Reservation">
         <rasd:AllocationUnits>hertz * 10^6</rasd:AllocationUnits>
         <rasd:Description>Number of virtual CPUs</rasd:Description>
         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1 virtual CPU</rasd:ElementName>
@@ -164,7 +164,7 @@
         <rasd:ResourceType>3</rasd:ResourceType>
         <rasd:VirtualQuantity>1</rasd:VirtualQuantity>
       </Item>
-      <Item configuration="1CPU-1GB - No Reservation">
+      <Item configuration="1CPU-1GB-No-Reservation">
         <rasd:AllocationUnits>hertz * 10^6</rasd:AllocationUnits>
         <rasd:Description>Number of virtual CPUs</rasd:Description>
         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1 virtual CPU</rasd:ElementName>
@@ -180,7 +180,7 @@
         <rasd:ResourceType>3</rasd:ResourceType>
         <rasd:VirtualQuantity>4</rasd:VirtualQuantity>
       </Item>
-      <Item configuration="4CPU-16GB - No Reservation">
+      <Item configuration="4CPU-16GB-No-Reservation">
         <rasd:AllocationUnits>hertz * 10^6</rasd:AllocationUnits>
         <rasd:Description>Number of virtual CPUs</rasd:Description>
         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">4 virtual CPUs</rasd:ElementName>
@@ -196,7 +196,7 @@
         <rasd:ResourceType>3</rasd:ResourceType>
         <rasd:VirtualQuantity>8</rasd:VirtualQuantity>
       </Item>
-      <Item configuration="8CPU-32GB - No Reservation">
+      <Item configuration="8CPU-32GB-No-Reservation">
         <rasd:AllocationUnits>hertz * 10^6</rasd:AllocationUnits>
         <rasd:Description>Number of virtual CPUs</rasd:Description>
         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">8 virtual CPUs</rasd:ElementName>
@@ -213,7 +213,7 @@
         <rasd:VirtualQuantity>512</rasd:VirtualQuantity>
         <rasd:Reservation>512</rasd:Reservation>
       </Item>
-      <Item configuration="1CPU-512MB - No Reservation">
+      <Item configuration="1CPU-512MB-No-Reservation">
         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
         <rasd:Description>Memory Size</rasd:Description>
         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">512 MB of memory</rasd:ElementName>
@@ -231,7 +231,7 @@
         <rasd:VirtualQuantity>1024</rasd:VirtualQuantity>
         <rasd:Reservation>1024</rasd:Reservation>
       </Item>
-      <Item configuration="1CPU-1GB - No Reservation">
+      <Item configuration="1CPU-1GB-No-Reservation">
         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
         <rasd:Description>Memory Size</rasd:Description>
         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1GB of memory</rasd:ElementName>
@@ -249,7 +249,7 @@
         <rasd:VirtualQuantity>16384</rasd:VirtualQuantity>
         <rasd:Reservation>16384</rasd:Reservation>
       </Item>
-      <Item configuration="4CPU-16GB - No Reservation">
+      <Item configuration="4CPU-16GB-No-Reservation">
         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
         <rasd:Description>Memory Size</rasd:Description>
         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">16 GB of memory</rasd:ElementName>
@@ -267,7 +267,7 @@
         <rasd:VirtualQuantity>32768</rasd:VirtualQuantity>
         <rasd:Reservation>32768</rasd:Reservation>
       </Item>
-      <Item configuration="8CPU-32GB - No Reservation">
+      <Item configuration="8CPU-32GB-No-Reservation">
         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
         <rasd:Description>Memory Size</rasd:Description>
         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">32 GB of memory</rasd:ElementName>
